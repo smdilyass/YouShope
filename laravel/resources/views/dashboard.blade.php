@@ -27,7 +27,7 @@
             </button>
             <!-- Brand -->
             <a class="navbar-brand py-lg-2 mb-lg-5 px-lg-6 me-0" href="#">
-                <h3 class="text-success"><img src="./img/youdemy-logo.png" width="40"><span class="text-info">YOU</span>Shope</h3> 
+                <h3 class="text-success"><span class="text-info">YOU</span>Shope</h3> 
             </a>
             <!-- User menu (mobile) -->
             
@@ -52,7 +52,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="user.html">
+                        <a class="nav-link " aria-current="page" href="{{ url('/user') }}">
                             <i class="bi bi-people"></i> Users
                         </a>
                     </li>
@@ -145,7 +145,7 @@
   
               <div class="card shadow border-0 mb-7">
                 <div class="card-header">
-                  <h5 class="mb-0">Applications</h5>
+                  <h5 class="mb-0">Products</h5>
                 </div>
 
                 <!-- <div class="row justify-content-center">
@@ -188,10 +188,10 @@
                       <div class="product-card bg-white rounded-4 shadow-sm h-100 position-relative">
                         <span class="badge bg-danger">New</span>
                         <div class="overflow-hidden">
-                          <img src="https://ultahost.com/blog/wp-content/uploads/2023/02/Best-Web-Servers-for-PHP-Development-1024x577.png" class="product-image w-100" alt="Product">
+                          <img src="" class="product-image w-100" alt="Product">
                         </div>
                         <div class="p-4">
-                          <h5 class="fw-bold mb-3">Learn mit Mir Php</h5>
+                          <h5 class="fw-bold mb-3">tshirt</h5>
                           <div class="d-flex align-items-center mb-3">
                             <div class="me-2">
                               <i class="fas fa-star text-warning"></i>
@@ -202,7 +202,7 @@
                             </div>
 
                             
-                            <div>
+                            {{-- <div>
 
 
                                 <td>
@@ -217,7 +217,7 @@
                                     <a class="text-heading font-semibold"> Teacher </a>
                                   </td>
 
-                            </div>
+                            </div> --}}
 
 
                           </div>
