@@ -15,7 +15,6 @@
                 <div class="bg-white rounded-lg shadow-md overflow-hidden">
                     <!-- Product Images Slider -->
                     @livewire('product-slider', ['product' => $product], key($product->id))
-
                     <!-- Product Details -->
                     <div class="p-4">
                         <h2 class="text-xl font-semibold mb-2">{{ $product->name }}</h2>

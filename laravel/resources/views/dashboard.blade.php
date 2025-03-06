@@ -52,7 +52,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="{{ url('/user') }}">
+                        <a class="nav-link " aria-current="page" href="{{ url('/dashboard') }}">
                             <i class="bi bi-people"></i> Users
                         </a>
                     </li>
