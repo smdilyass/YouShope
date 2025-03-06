@@ -18,7 +18,7 @@ class ImageFactory extends Factory
     {
         return [
             'path' => $this ->faker->unique()->randomElement([
-                'https://picsum.photos/200/300',
+                'https://picsum.photos',
                 'media/example2.png',
                 'media/example3.png',
                 'media/example4.png',
