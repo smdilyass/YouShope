@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\Product;
+ 
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -13,5 +14,7 @@ class ProductController extends Controller
 
         // Pass the data to the view
         return view('welcome', compact('products'));
+        
     }
+    
 }
